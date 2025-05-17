@@ -1,0 +1,58 @@
+#grad1 { 
+    height: 580px; /* altura do elemento */
+    background-color: red;
+    padding: 25px; /* preenchimento em volta do elemento */
+    background-size: 100% auto;
+    background: linear-gradient(135deg, #100f2b, #0f74a3);
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+   @font-face { 
+            font-family: 'Scripter';
+            src: url('caminho/para/scripter.ttf') format('truetype');
+        }
+        @font-face { 
+            font-family: 'Proxima Nova';
+            src: url('caminho/para/proximanova.ttf') format('truetype');
+        }
+  h1{
+     font-size: 50px;
+     font-family: 'Scripter';
+  }
+  p{
+    font-size: 20px;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+
+  #grad1 h1 {
+    margin-bottom: 16px;
+  }
+
+  #grad1 p {
+    max-width: 600px;
+    margin-bottom: 32px;
+  }
+/*botão de comece agora*/
+  .container .btn {
+    background-color: #02084b;
+    color: white;
+    font-size: 16px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .btn:hover {
+   background-color: #0a0218;
+}
+
+/*texto + img*/
