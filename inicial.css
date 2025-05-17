@@ -193,3 +193,17 @@ body {
 }
 
 /*part final*/
+.titulo-final{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #1e2a38;
+  text-align: center;
+}
+
+.titulo-final p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000;
+}
