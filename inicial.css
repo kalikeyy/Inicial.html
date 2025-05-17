@@ -12,6 +12,8 @@
     align-items: center;
     text-align: center;
   }
+
+  /*fonte de texto*/
    @font-face { 
             font-family: 'Scripter';
             src: url('caminho/para/scripter.ttf') format('truetype');
@@ -19,24 +21,23 @@
         @font-face { 
             font-family: 'Proxima Nova';
             src: url('caminho/para/proximanova.ttf') format('truetype');
-        }
-  h1{
-     font-size: 50px;
+ 
+       }
+
+  /*texto da 1 parte*/
+  #grad1 h1 {
+    margin-bottom: 16px;
+    font-size: 50px;
      font-family: 'Scripter';
   }
-  p{
+ 
+  #grad1 p {
+    max-width: 600px;
+    margin-bottom: 32px;
     font-size: 20px;
     font-family: 'Proxima Nova', sans-serif;
   }
 
-  #grad1 h1 {
-    margin-bottom: 16px;
-  }
-
-  #grad1 p {
-    max-width: 600px;
-    margin-bottom: 32px;
-  }
 /*botão de comece agora*/
   .container .btn {
     background-color: #02084b;
