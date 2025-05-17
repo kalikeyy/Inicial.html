@@ -123,7 +123,9 @@ body {
   gap: 90px; 
   align-items: center;
 }
-
+.item:hover img {
+  transform: translateY(-5px);
+}
 .item {
   width: 180px;
   color: #000;
@@ -133,6 +135,7 @@ body {
   width: 180px;
   height: 200px;
   margin-bottom: 12px;
+  transition: transform 0.3s ease;
 }
 
 .item p {
