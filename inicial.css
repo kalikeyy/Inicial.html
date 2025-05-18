@@ -168,14 +168,14 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 60px;
 }
 
 .card {
   border: 2px solid #d6cfe2;
   border-radius: 16px;
-  padding: 20px;
-  width: 180px;
+  height: 250px;
+  width: 250px;
   box-sizing: border-box;
   transition: transform 0.3s ease;
 }
@@ -186,8 +186,8 @@ body {
 }
 
 .card img {
-  width: 60px;
-  height: 60px;
+  width: 150px;
+  height: 130px;
   margin-bottom: 15px;
 }
 
