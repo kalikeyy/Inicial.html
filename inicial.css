@@ -20,11 +20,11 @@ body {
   /*fonte de texto*/
    @font-face { 
             font-family: 'Scripter';
-            src: url('caminho/para/scripter.ttf') format('truetype');
+            src: url('fonte/Vintage\ Scripter.ttf') format('truetype');
         }
         @font-face { 
             font-family: 'Proxima Nova';
-            src: url('caminho/para/proximanova.ttf') format('truetype');
+            src: url('fonte/proxima-nova.otf') format('OpenType');
  
        }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .texto p {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.6;
   color: #444;
 }
