@@ -88,6 +88,7 @@ body {
   font-size: 22px;
   line-height: 1.6;
   color: #444;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 .imagem {
@@ -144,6 +145,7 @@ body {
   font-size: 18px;
   color: #000;
   line-height: 1.4;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 /*part3 soluções*/
@@ -163,6 +165,7 @@ body {
   margin: 0 auto 40px;
   font-size: 20px;
   line-height: 1.5;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 .cards-container {
@@ -197,6 +200,7 @@ body {
   margin: 0;
   font-size: 20px;
   color: #000;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 /*part final*/
@@ -214,4 +218,5 @@ body {
   margin-bottom: 20px;
   font-size: 20px;
   color: #000;
+  font-family: 'Proxima Nova', sans-serif;
 }
