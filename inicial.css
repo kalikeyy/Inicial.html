@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
 }
@@ -18,10 +20,6 @@ body {
   }
 
   /*fonte de texto*/
-   @font-face { 
-            font-family: 'Scripter';
-            src: url('fonte/Vintage\ Scripter.ttf') format('truetype');
-        }
         @font-face { 
             font-family: 'Proxima Nova';
             src: url('fonte/proxima-nova.otf') format('OpenType');
@@ -32,8 +30,8 @@ body {
   #grad1 h1 {
     margin-bottom: 16px;
     font-size: 50px;
-    font-family: 'Scripter';
-
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
   }
  
   #grad1 p {
@@ -82,6 +80,8 @@ body {
   margin-bottom: 24px;
   font-weight: bold;
   line-height: 1.3;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 .texto p {
@@ -114,6 +114,8 @@ body {
   font-size: 40px;
   color: #02084b;
   text-align: center;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 .faixa {
@@ -158,6 +160,8 @@ body {
   font-size: 50px;
   color: #02084b;
   margin-bottom: 16px;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 .descricao {
@@ -211,6 +215,8 @@ body {
   color: #1e2a38;
   text-align: center;
   color: #02084b;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 .titulo-final p {
