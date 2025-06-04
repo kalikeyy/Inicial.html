@@ -4,10 +4,9 @@ body {
   margin: 0;
 }
 
-#grad1 { 
-    height: 700px; /* altura do elemento */
-    background-color: red;
-    padding: 50px; /* preenchimento em volta do elemento */
+#bem-vindos { 
+    height: 700px; 
+    padding: 50px; 
     background-size: 100% auto;
     background: linear-gradient(135deg, #100f2b, #0f74a3);
     color: white;
@@ -27,14 +26,14 @@ body {
        }
 
   /*texto do inicio*/
-  #grad1 h1 {
+  #bem-vindos h1 {
     margin-bottom: 16px;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Comic Sans MS', cursive, sans-serif;
   }
  
-  #grad1 p {
+  #bem-vindos p {
     max-width: 600px;
     font-size: 20px;
     font-family: 'Proxima Nova', sans-serif;
