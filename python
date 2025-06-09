@@ -1,0 +1,77 @@
+def main():
+    print("=== Sistema de Pagamento ===")
+   
+    while True:
+        print("\nFormas de pagamento disponíveis:")
+        print("1 - Pix")
+        print("2 - Cartão de Crédito")
+        print("3 - Cartão de Débito")
+        print("4 - Boleto Bancário")
+        print("5 - Sair do sistema")
+       
+        try:
+            opcao = int(input("\nEscolha a forma de pagamento (1-5): "))
+        except ValueError:
+            print("Por favor, digite um número válido.")
+            continue
+           
+        if opcao == 5:
+            print("Saindo do sistema...")
+            break
+        elif opcao not in [1, 2, 3, 4]:
+            print("Opção inválida. Por favor, escolha entre 1 e 5.")
+            continue
+           
+        formas_pagamento = {
+            1: "Pix",
+            2: "Cartão de Crédito",
+            3: "Cartão de Débito",
+            4: "Boleto Bancário"
+        }
+       
+        forma_selecionada = formas_pagamento[opcao]
+        print(f"\nForma de pagamento selecionada: {forma_selecionada}")
+       
+        print("\nPor favor, informe seus dados:")
+        nome = input("Nome completo: ")
+        email = input("E-mail: ")
+       
+        if opcao in [2, 3]:
+            numero_cartao = input("Número do cartão: ")
+            validade = input("Validade (MM/AA): ")
+            cvv = input("CVV: ")
+        elif opcao == 4:
+            cpf = input("CPF: ")
+       
+        while True:
+            try:
+                valor = float(input("\nDigite o valor do pagamento: R$ "))
+                if valor <= 0:
+                    print("O valor deve ser maior que zero.")
+                    continue
+                break
+            except ValueError:
+                print("Por favor, digite um valor numérico válido.")
+       
+        print("\n=== Resumo do Pagamento ===")
+        print(f"Forma de pagamento: {forma_selecionada}")
+        print(f"Valor: R$ {valor:.2f}")
+        print(f"Nome: {nome}")
+        print(f"E-mail: {email}")
+       
+        confirmacao = input("\nDeseja concluir o pagamento? (S/N): ").strip().upper()
+       
+        if confirmacao == 'S':
+            print("\nProcessando pagamento...")
+            print("Pagamento concluído com sucesso!")
+            print("Um comprovante foi enviado para o e-mail cadastrado.")
+            break
+        else:
+            print("\nPagamento cancelado. Você pode iniciar um novo pagamento.")
+            continuar = input("Deseja fazer outro pagamento? (S/N): ").strip().upper()
+            if continuar != 'S':
+                print("Saindo do sistema...")
+                break
+
+if __name__ == "__main__":
+    main()
